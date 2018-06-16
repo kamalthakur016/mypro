@@ -2,7 +2,8 @@ import { HomeComponent } from './bs-navbar/home/home.component';
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+//import { RouterModule } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import {AngularFireModule } from 'angularfire2';
@@ -24,7 +25,8 @@ import { LoginComponent } from './bs-navbar/login/login.component';
     PerformanceComponent,
     CustomersComponent,
     HistoryComponent,
-    LoginComponent
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
