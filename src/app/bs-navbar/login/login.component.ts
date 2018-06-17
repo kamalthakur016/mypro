@@ -1,4 +1,4 @@
-import { BsNavbarComponent } from './../bs-navbar.component';
+
 import { AngularFireAuth } from 'angularfire2/auth';
 import { Component } from '@angular/core';
 import * as firebase from 'firebase';
